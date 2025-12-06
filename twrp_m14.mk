@@ -15,11 +15,11 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
-# Inherit from a05s device
-$(call inherit-product, device/samsung/a05s/device.mk)
+# Inherit from m14 device
+$(call inherit-product, device/samsung/m14/device.mk)
 
-PRODUCT_DEVICE := a05s
-PRODUCT_NAME := twrp_a05s
+PRODUCT_DEVICE := m14
+PRODUCT_NAME := twrp_m14
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-M145F
 PRODUCT_MANUFACTURER := samsung

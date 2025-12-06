@@ -1,4 +1,4 @@
-# Android device tree for samsung SM-M145F (a05s)
+# Android device tree for samsung SM-M145F
 
 # Contributors
  - [Ravindu644](https://github.com/ravindu644) - Custom Kernel Developer, Fixed touch implementation in Chipone
@@ -7,7 +7,6 @@
 # Bugs
  - Data Mounting
  - himax touch screen is currently broken (We want to fix this but are having a hard time finding a willing tester to pull logs and things in order to fix it)
- - on the a05s models A057 F/G/M usb OTG doesnt work, we plan to do an a05s tree
 
 # Kernel
 https://github.com/ravindu644/android_kernel_sm_m145f/tree/TWRP (the work of @ravindu644)
