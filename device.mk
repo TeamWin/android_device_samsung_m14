@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/samsung/a05s
+LOCAL_PATH := device/samsung/m14
 
 # API levels
 PRODUCT_SHIPPING_API_LEVEL := 30
